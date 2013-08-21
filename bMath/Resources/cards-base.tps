@@ -179,21 +179,21 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../../../../Downloads/tiles/card_0.png</filename>
-            <filename>../../../../Downloads/tiles/card_1.png</filename>
-            <filename>../../../../Downloads/tiles/card_2.png</filename>
-            <filename>../../../../Downloads/tiles/card_3.png</filename>
-            <filename>../../../../Downloads/tiles/card_4.png</filename>
-            <filename>../../../../Downloads/tiles/card_5.png</filename>
-            <filename>../../../../Downloads/tiles/card_6.png</filename>
-            <filename>../../../../Downloads/tiles/card_7.png</filename>
-            <filename>../../../../Downloads/tiles/card_8.png</filename>
-            <filename>../../../../Downloads/tiles/card_9.png</filename>
-            <filename>../../../../Downloads/tiles/card_10.png</filename>
-            <filename>../../../../Downloads/tiles/op_eq.png</filename>
-            <filename>../../../../Downloads/tiles/op_minus.png</filename>
-            <filename>../../../../Downloads/tiles/op_plus.png</filename>
-            <filename>../../../../Downloads/tiles/op_question.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_00.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_01.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_02.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_03.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_04.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_05.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_06.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_07.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_08.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_09.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_10.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_11.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_12.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_13.png</filename>
+            <filename>../../../../Downloads/cards-base/cards-base_14.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

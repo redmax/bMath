@@ -18,6 +18,8 @@
 
 @synthesize animationManager;
 
+NSString* CARDS[] = {CARD_0, CARD_1, CARD_2, CARD_3, CARD_4, CARD_5, CARD_6, CARD_7, CARD_8, CARD_9, CARD_10};
+
 - (void) didLoadFromCCB
 {
     self.animationManager = self.userObject;
@@ -25,11 +27,24 @@
 
 -(void)newQuestion
 {
-    [self.q1 setCardByName:@"card_1.png"];
-    [self.q2 setCardByName:@"card_2.png"];
-    [self.q3 setCardByName:@"op_question.png"];
-    [self.op setCardByName:@"op_plus.png"];
-    [self.eq setCardByName:@"op_eq.png"];
+    NSUInteger op1 = RANDOM(1,9);
+    NSUInteger op2 = RANDOM(1,10-op1);
+    self.answer = op1 + op2;
+    
+    NSLog(@"%d + %d = %d", op1, op2, self.answer);
+    
+    [self showCards:op1 op2:op2];
+}
+
+-(void)showCards:(NSUInteger)op1
+            op2:(NSUInteger)op2
+{
+    [self.q1 setCardByName:CARDS[op1]];
+    [self.q2 setCardByName:CARDS[op2]];
+    
+    [self.q3 setCardByName:CARD_QUESTION];
+    [self.op setCardByName:CARD_PLUS];
+    [self.eq setCardByName:CARD_EQUAL];
     
     [animationManager runAnimationsForSequenceNamed:@"NewQuestion"];
 }

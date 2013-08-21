@@ -14,7 +14,8 @@
 
 -(void)setCardByName:(NSString *)name
 {
-    [self.image initWithSpriteFrame:[[GameModel sharedGameModel] cardSpriteByName:name]];
+    [self.image setSpriteFrame:
+        [[GameModel sharedGameModel] cardSpriteByName:name]];
 }
 
 @end

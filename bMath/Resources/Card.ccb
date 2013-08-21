@@ -86,8 +86,8 @@
 						<string>SpriteFrame</string>
 						<key>value</key>
 						<array>
-							<string></string>
-							<string>Icon.png</string>
+							<string>cards-base.plist</string>
+							<string>cards-base_13.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -97,9 +97,9 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>100</real>
-							<real>100</real>
-							<integer>1</integer>
+							<real>28</real>
+							<real>18</real>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -174,8 +174,8 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>80</real>
-					<real>80</real>
+					<real>100</real>
+					<real>160</real>
 					<integer>0</integer>
 				</array>
 			</dict>

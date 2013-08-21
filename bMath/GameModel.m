@@ -16,14 +16,15 @@
 -(void)setCardSet:(NSString *)cardSet
 {
     _cardSet = cardSet;
-    [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:_cardSet];
+    [[CCSpriteFrameCache sharedSpriteFrameCache]
+        addSpriteFramesWithFile:[NSString stringWithFormat:@"%@.plist", self.cardSet]];
 }
 
 -(id)init
 {
     if([super init] != nil)
     {
-        self.cardSet=@"cards-base.plist";
+        self.cardSet=@"cards-base";
     }
     
     return self;
@@ -41,7 +42,8 @@ static GameModel* _sharedGameModel=nil;
 
 -(CCSpriteFrame *)cardSpriteByName:(NSString *)name
 {
-    return [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:name];
+    return [[CCSpriteFrameCache sharedSpriteFrameCache]
+            spriteFrameByName:[NSString stringWithFormat:@"%@_%@.png", self.cardSet, name ]];
 }
 
 

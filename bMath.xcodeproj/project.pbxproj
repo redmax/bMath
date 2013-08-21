@@ -139,8 +139,54 @@
 		B5D638A617B4020E005BE425 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = B5D638A517B4020E005BE425 /* vec4.c */; };
 		B5D638AB17B4020E005BE425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638AA17B4020E005BE425 /* main.m */; };
 		B5D638AE17B4020E005BE425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638AD17B4020E005BE425 /* AppDelegate.m */; };
-		B5D638B117B4020E005BE425 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638B017B4020E005BE425 /* HelloWorldLayer.m */; };
-		B5D638B417B4020E005BE425 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638B317B4020E005BE425 /* IntroLayer.m */; };
+		B5D638C717B4023D005BE425 /* CCBAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638BC17B4023D005BE425 /* CCBAnimationManager.m */; };
+		B5D638C817B4023D005BE425 /* CCBKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638BE17B4023D005BE425 /* CCBKeyframe.m */; };
+		B5D638C917B4023D005BE425 /* CCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638C017B4023D005BE425 /* CCBReader.m */; };
+		B5D638CA17B4023D005BE425 /* CCBsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638C217B4023D005BE425 /* CCBsequence.m */; };
+		B5D638CB17B4023D005BE425 /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638C417B4023D005BE425 /* CCBSequenceProperty.m */; };
+		B5D638CC17B4023D005BE425 /* CCNode+CCBRelativePositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D638C617B4023D005BE425 /* CCNode+CCBRelativePositioning.m */; };
+		B5D638DC17B41C2B005BE425 /* ccbDefaultImages-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5D638D217B41C2B005BE425 /* ccbDefaultImages-hd.plist */; };
+		B5D638DD17B41C2B005BE425 /* ccbDefaultImages-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D638D317B41C2B005BE425 /* ccbDefaultImages-hd.png */; };
+		B5D638DE17B41C2B005BE425 /* ccbDefaultImages-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5D638D417B41C2B005BE425 /* ccbDefaultImages-ipad.plist */; };
+		B5D638DF17B41C2B005BE425 /* ccbDefaultImages-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5D638D517B41C2B005BE425 /* ccbDefaultImages-ipadhd.plist */; };
+		B5D638E017B41C2B005BE425 /* ccbDefaultImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5D638D617B41C2B005BE425 /* ccbDefaultImages.plist */; };
+		B5D638E117B41C2B005BE425 /* ccbDefaultImages.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D638D717B41C2B005BE425 /* ccbDefaultImages.png */; };
+		B5D638E217B41C2B005BE425 /* ccbParticleFire.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D638D817B41C2B005BE425 /* ccbParticleFire.png */; };
+		B5D638E317B41C2B005BE425 /* ccbParticleSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D638D917B41C2B005BE425 /* ccbParticleSmoke.png */; };
+		B5D638E417B41C2B005BE425 /* ccbParticleSnow.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D638DA17B41C2B005BE425 /* ccbParticleSnow.png */; };
+		B5D638E517B41C2B005BE425 /* ccbParticleStars.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D638DB17B41C2B005BE425 /* ccbParticleStars.png */; };
+		B5E5E6D217C2816D006FE2B0 /* RoundAnswers.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = B5E5E6CE17C2816D006FE2B0 /* RoundAnswers.ccbi */; };
+		B5E5E6D317C2816D006FE2B0 /* RoundContainer.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = B5E5E6CF17C2816D006FE2B0 /* RoundContainer.ccbi */; };
+		B5E5E6D417C2816D006FE2B0 /* RoundQuestion.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = B5E5E6D017C2816D006FE2B0 /* RoundQuestion.ccbi */; };
+		B5E5E6D517C2816D006FE2B0 /* RoundScore.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = B5E5E6D117C2816D006FE2B0 /* RoundScore.ccbi */; };
+		B5E5E6D917C281BC006FE2B0 /* RoundContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6D817C281BC006FE2B0 /* RoundContainer.m */; };
+		B5E5E6DC17C281DE006FE2B0 /* RoundQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6DB17C281DE006FE2B0 /* RoundQuestion.m */; };
+		B5E5E6DF17C281ED006FE2B0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6DE17C281ED006FE2B0 /* Card.m */; };
+		B5E5E71017C292A2006FE2B0 /* CCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6E317C292A2006FE2B0 /* CCControl.m */; };
+		B5E5E71117C292A2006FE2B0 /* CCControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6E517C292A2006FE2B0 /* CCControlButton.m */; };
+		B5E5E71217C292A2006FE2B0 /* CCControlColourPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6E717C292A2006FE2B0 /* CCControlColourPicker.m */; };
+		B5E5E71317C292A2006FE2B0 /* CCControlHuePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6E917C292A2006FE2B0 /* CCControlHuePicker.m */; };
+		B5E5E71417C292A2006FE2B0 /* CCControlPotentiometer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6EB17C292A2006FE2B0 /* CCControlPotentiometer.m */; };
+		B5E5E71517C292A2006FE2B0 /* CCControlSaturationBrightnessPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6ED17C292A2006FE2B0 /* CCControlSaturationBrightnessPicker.m */; };
+		B5E5E71617C292A2006FE2B0 /* CCControlSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6EF17C292A2006FE2B0 /* CCControlSlider.m */; };
+		B5E5E71717C292A2006FE2B0 /* CCControlStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6F117C292A2006FE2B0 /* CCControlStepper.m */; };
+		B5E5E71817C292A2006FE2B0 /* CCControlSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6F317C292A2006FE2B0 /* CCControlSwitch.m */; };
+		B5E5E71917C292A2006FE2B0 /* CCControlSwitchMask.fsh in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6F517C292A2006FE2B0 /* CCControlSwitchMask.fsh */; };
+		B5E5E71A17C292A2006FE2B0 /* CCColourUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6F817C292A2006FE2B0 /* CCColourUtils.m */; };
+		B5E5E71B17C292A2006FE2B0 /* CCScale9Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6FA17C292A2006FE2B0 /* CCScale9Sprite.m */; };
+		B5E5E71C17C292A2006FE2B0 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E5E6FC17C292A2006FE2B0 /* Utils.m */; };
+		B5E5E71D17C292A2006FE2B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5E5E6FE17C292A2006FE2B0 /* README.md */; };
+		B5F6C4E317C3C6B200CB497E /* Card.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C4E217C3C6B200CB497E /* Card.ccbi */; };
+		B5F6C4E517C3D09C00CB497E /* Number-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C4E417C3D09C00CB497E /* Number-2-icon.png */; };
+		B5F6C4E717C3D1FF00CB497E /* cherries.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C4E617C3D1FF00CB497E /* cherries.png */; };
+		B5F6C50617C506CE00CB497E /* cards-base-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C50017C506CE00CB497E /* cards-base-hd.plist */; };
+		B5F6C50717C506CE00CB497E /* cards-base-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C50117C506CE00CB497E /* cards-base-hd.png */; };
+		B5F6C50A17C506CE00CB497E /* cards-base.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C50417C506CE00CB497E /* cards-base.plist */; };
+		B5F6C50B17C506CE00CB497E /* cards-base.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C50517C506CE00CB497E /* cards-base.png */; };
+		B5F6C50E17C5082300CB497E /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F6C50D17C5082300CB497E /* GameModel.m */; };
+		B5F6C51617C5286700CB497E /* cards-base-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C51417C5286700CB497E /* cards-base-ipadhd.plist */; };
+		B5F6C51717C5286700CB497E /* cards-base-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C51517C5286700CB497E /* cards-base-ipadhd.png */; };
+		B5F6C51A17C5348B00CB497E /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F6C51917C5348B00CB497E /* GameController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -421,10 +467,79 @@
 		B5D638AA17B4020E005BE425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5D638AC17B4020E005BE425 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5D638AD17B4020E005BE425 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5D638AF17B4020E005BE425 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		B5D638B017B4020E005BE425 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		B5D638B217B4020E005BE425 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		B5D638B317B4020E005BE425 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		B5D638BB17B4023D005BE425 /* CCBAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBAnimationManager.h; sourceTree = "<group>"; };
+		B5D638BC17B4023D005BE425 /* CCBAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBAnimationManager.m; sourceTree = "<group>"; };
+		B5D638BD17B4023D005BE425 /* CCBKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBKeyframe.h; sourceTree = "<group>"; };
+		B5D638BE17B4023D005BE425 /* CCBKeyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBKeyframe.m; sourceTree = "<group>"; };
+		B5D638BF17B4023D005BE425 /* CCBReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBReader.h; sourceTree = "<group>"; };
+		B5D638C017B4023D005BE425 /* CCBReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBReader.m; sourceTree = "<group>"; };
+		B5D638C117B4023D005BE425 /* CCBSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequence.h; sourceTree = "<group>"; };
+		B5D638C217B4023D005BE425 /* CCBsequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBsequence.m; sourceTree = "<group>"; };
+		B5D638C317B4023D005BE425 /* CCBSequenceProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequenceProperty.h; sourceTree = "<group>"; };
+		B5D638C417B4023D005BE425 /* CCBSequenceProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBSequenceProperty.m; sourceTree = "<group>"; };
+		B5D638C517B4023D005BE425 /* CCNode+CCBRelativePositioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+CCBRelativePositioning.h"; sourceTree = "<group>"; };
+		B5D638C617B4023D005BE425 /* CCNode+CCBRelativePositioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+CCBRelativePositioning.m"; sourceTree = "<group>"; };
+		B5D638D217B41C2B005BE425 /* ccbDefaultImages-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ccbDefaultImages-hd.plist"; sourceTree = "<group>"; };
+		B5D638D317B41C2B005BE425 /* ccbDefaultImages-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ccbDefaultImages-hd.png"; sourceTree = "<group>"; };
+		B5D638D417B41C2B005BE425 /* ccbDefaultImages-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ccbDefaultImages-ipad.plist"; sourceTree = "<group>"; };
+		B5D638D517B41C2B005BE425 /* ccbDefaultImages-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ccbDefaultImages-ipadhd.plist"; sourceTree = "<group>"; };
+		B5D638D617B41C2B005BE425 /* ccbDefaultImages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ccbDefaultImages.plist; sourceTree = "<group>"; };
+		B5D638D717B41C2B005BE425 /* ccbDefaultImages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbDefaultImages.png; sourceTree = "<group>"; };
+		B5D638D817B41C2B005BE425 /* ccbParticleFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbParticleFire.png; sourceTree = "<group>"; };
+		B5D638D917B41C2B005BE425 /* ccbParticleSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbParticleSmoke.png; sourceTree = "<group>"; };
+		B5D638DA17B41C2B005BE425 /* ccbParticleSnow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbParticleSnow.png; sourceTree = "<group>"; };
+		B5D638DB17B41C2B005BE425 /* ccbParticleStars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccbParticleStars.png; sourceTree = "<group>"; };
+		B5E5E6CE17C2816D006FE2B0 /* RoundAnswers.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = RoundAnswers.ccbi; path = Resources/RoundAnswers.ccbi; sourceTree = "<group>"; };
+		B5E5E6CF17C2816D006FE2B0 /* RoundContainer.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = RoundContainer.ccbi; path = Resources/RoundContainer.ccbi; sourceTree = "<group>"; };
+		B5E5E6D017C2816D006FE2B0 /* RoundQuestion.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = RoundQuestion.ccbi; path = Resources/RoundQuestion.ccbi; sourceTree = "<group>"; };
+		B5E5E6D117C2816D006FE2B0 /* RoundScore.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = RoundScore.ccbi; path = Resources/RoundScore.ccbi; sourceTree = "<group>"; };
+		B5E5E6D717C281BC006FE2B0 /* RoundContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundContainer.h; sourceTree = "<group>"; };
+		B5E5E6D817C281BC006FE2B0 /* RoundContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundContainer.m; sourceTree = "<group>"; };
+		B5E5E6DA17C281DE006FE2B0 /* RoundQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundQuestion.h; sourceTree = "<group>"; };
+		B5E5E6DB17C281DE006FE2B0 /* RoundQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundQuestion.m; sourceTree = "<group>"; };
+		B5E5E6DD17C281ED006FE2B0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		B5E5E6DE17C281ED006FE2B0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		B5E5E6E217C292A2006FE2B0 /* CCControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControl.h; sourceTree = "<group>"; };
+		B5E5E6E317C292A2006FE2B0 /* CCControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControl.m; sourceTree = "<group>"; };
+		B5E5E6E417C292A2006FE2B0 /* CCControlButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlButton.h; sourceTree = "<group>"; };
+		B5E5E6E517C292A2006FE2B0 /* CCControlButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlButton.m; sourceTree = "<group>"; };
+		B5E5E6E617C292A2006FE2B0 /* CCControlColourPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlColourPicker.h; sourceTree = "<group>"; };
+		B5E5E6E717C292A2006FE2B0 /* CCControlColourPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlColourPicker.m; sourceTree = "<group>"; };
+		B5E5E6E817C292A2006FE2B0 /* CCControlHuePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlHuePicker.h; sourceTree = "<group>"; };
+		B5E5E6E917C292A2006FE2B0 /* CCControlHuePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlHuePicker.m; sourceTree = "<group>"; };
+		B5E5E6EA17C292A2006FE2B0 /* CCControlPotentiometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlPotentiometer.h; sourceTree = "<group>"; };
+		B5E5E6EB17C292A2006FE2B0 /* CCControlPotentiometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlPotentiometer.m; sourceTree = "<group>"; };
+		B5E5E6EC17C292A2006FE2B0 /* CCControlSaturationBrightnessPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSaturationBrightnessPicker.h; sourceTree = "<group>"; };
+		B5E5E6ED17C292A2006FE2B0 /* CCControlSaturationBrightnessPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlSaturationBrightnessPicker.m; sourceTree = "<group>"; };
+		B5E5E6EE17C292A2006FE2B0 /* CCControlSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSlider.h; sourceTree = "<group>"; };
+		B5E5E6EF17C292A2006FE2B0 /* CCControlSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlSlider.m; sourceTree = "<group>"; };
+		B5E5E6F017C292A2006FE2B0 /* CCControlStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlStepper.h; sourceTree = "<group>"; };
+		B5E5E6F117C292A2006FE2B0 /* CCControlStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlStepper.m; sourceTree = "<group>"; };
+		B5E5E6F217C292A2006FE2B0 /* CCControlSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlSwitch.h; sourceTree = "<group>"; };
+		B5E5E6F317C292A2006FE2B0 /* CCControlSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlSwitch.m; sourceTree = "<group>"; };
+		B5E5E6F517C292A2006FE2B0 /* CCControlSwitchMask.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CCControlSwitchMask.fsh; sourceTree = "<group>"; };
+		B5E5E6F717C292A2006FE2B0 /* CCColourUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCColourUtils.h; sourceTree = "<group>"; };
+		B5E5E6F817C292A2006FE2B0 /* CCColourUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCColourUtils.m; sourceTree = "<group>"; };
+		B5E5E6F917C292A2006FE2B0 /* CCScale9Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScale9Sprite.h; sourceTree = "<group>"; };
+		B5E5E6FA17C292A2006FE2B0 /* CCScale9Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCScale9Sprite.m; sourceTree = "<group>"; };
+		B5E5E6FB17C292A2006FE2B0 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		B5E5E6FC17C292A2006FE2B0 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		B5E5E6FD17C292A2006FE2B0 /* CCControlExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlExtension.h; sourceTree = "<group>"; };
+		B5E5E6FE17C292A2006FE2B0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B5F6C4E217C3C6B200CB497E /* Card.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Card.ccbi; path = Resources/Card.ccbi; sourceTree = "<group>"; };
+		B5F6C4E417C3D09C00CB497E /* Number-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Number-2-icon.png"; sourceTree = "<group>"; };
+		B5F6C4E617C3D1FF00CB497E /* cherries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherries.png; sourceTree = "<group>"; };
+		B5F6C50017C506CE00CB497E /* cards-base-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "cards-base-hd.plist"; path = "Resources/cards-base-hd.plist"; sourceTree = "<group>"; };
+		B5F6C50117C506CE00CB497E /* cards-base-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cards-base-hd.png"; path = "Resources/cards-base-hd.png"; sourceTree = "<group>"; };
+		B5F6C50417C506CE00CB497E /* cards-base.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "cards-base.plist"; path = "Resources/cards-base.plist"; sourceTree = "<group>"; };
+		B5F6C50517C506CE00CB497E /* cards-base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cards-base.png"; path = "Resources/cards-base.png"; sourceTree = "<group>"; };
+		B5F6C50C17C5082200CB497E /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		B5F6C50D17C5082300CB497E /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		B5F6C50F17C50FFF00CB497E /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		B5F6C51417C5286700CB497E /* cards-base-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "cards-base-ipadhd.plist"; path = "Resources/cards-base-ipadhd.plist"; sourceTree = "<group>"; };
+		B5F6C51517C5286700CB497E /* cards-base-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cards-base-ipadhd.png"; path = "Resources/cards-base-ipadhd.png"; sourceTree = "<group>"; };
+		B5F6C51817C5348B00CB497E /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		B5F6C51917C5348B00CB497E /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,15 +600,18 @@
 		B5D6371B17B4020D005BE425 /* bMath */ = {
 			isa = PBXGroup;
 			children = (
+				B5E5E6D617C28184006FE2B0 /* Round */,
+				B5D638BA17B4023D005BE425 /* CCBReader */,
 				B5D638AC17B4020E005BE425 /* AppDelegate.h */,
 				B5D638AD17B4020E005BE425 /* AppDelegate.m */,
-				B5D638AF17B4020E005BE425 /* HelloWorldLayer.h */,
-				B5D638B017B4020E005BE425 /* HelloWorldLayer.m */,
-				B5D638B217B4020E005BE425 /* IntroLayer.h */,
-				B5D638B317B4020E005BE425 /* IntroLayer.m */,
 				B5D6371C17B4020D005BE425 /* Resources */,
 				B5D6373417B4020D005BE425 /* libs */,
 				B5D638A817B4020E005BE425 /* Supporting Files */,
+				B5F6C50C17C5082200CB497E /* GameModel.h */,
+				B5F6C50D17C5082300CB497E /* GameModel.m */,
+				B5F6C50F17C50FFF00CB497E /* Common.h */,
+				B5F6C51817C5348B00CB497E /* GameController.h */,
+				B5F6C51917C5348B00CB497E /* GameController.m */,
 			);
 			path = bMath;
 			sourceTree = "<group>";
@@ -501,6 +619,20 @@
 		B5D6371C17B4020D005BE425 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5F6C51417C5286700CB497E /* cards-base-ipadhd.plist */,
+				B5F6C51517C5286700CB497E /* cards-base-ipadhd.png */,
+				B5F6C50017C506CE00CB497E /* cards-base-hd.plist */,
+				B5F6C50117C506CE00CB497E /* cards-base-hd.png */,
+				B5F6C50417C506CE00CB497E /* cards-base.plist */,
+				B5F6C50517C506CE00CB497E /* cards-base.png */,
+				B5F6C4E617C3D1FF00CB497E /* cherries.png */,
+				B5F6C4E417C3D09C00CB497E /* Number-2-icon.png */,
+				B5F6C4E217C3C6B200CB497E /* Card.ccbi */,
+				B5E5E6CE17C2816D006FE2B0 /* RoundAnswers.ccbi */,
+				B5E5E6CF17C2816D006FE2B0 /* RoundContainer.ccbi */,
+				B5E5E6D017C2816D006FE2B0 /* RoundQuestion.ccbi */,
+				B5E5E6D117C2816D006FE2B0 /* RoundScore.ccbi */,
+				B5D638D117B41C2B005BE425 /* ccbResources */,
 				B5D6371D17B4020D005BE425 /* Default.png */,
 				B5D6371F17B4020D005BE425 /* Default@2x.png */,
 				B5D6372117B4020D005BE425 /* Default-568h@2x.png */,
@@ -520,6 +652,7 @@
 		B5D6373417B4020D005BE425 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				B5E5E6E017C292A2006FE2B0 /* CCControlExtension */,
 				B5D6385F17B4020E005BE425 /* LICENSE_cocos2d.txt */,
 				B5D6387517B4020E005BE425 /* LICENSE_CocosDenshion.txt */,
 				B5D638A717B4020E005BE425 /* LICENSE_Kazmath.txt */,
@@ -879,6 +1012,115 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5D638BA17B4023D005BE425 /* CCBReader */ = {
+			isa = PBXGroup;
+			children = (
+				B5D638BB17B4023D005BE425 /* CCBAnimationManager.h */,
+				B5D638BC17B4023D005BE425 /* CCBAnimationManager.m */,
+				B5D638BD17B4023D005BE425 /* CCBKeyframe.h */,
+				B5D638BE17B4023D005BE425 /* CCBKeyframe.m */,
+				B5D638BF17B4023D005BE425 /* CCBReader.h */,
+				B5D638C017B4023D005BE425 /* CCBReader.m */,
+				B5D638C117B4023D005BE425 /* CCBSequence.h */,
+				B5D638C217B4023D005BE425 /* CCBsequence.m */,
+				B5D638C317B4023D005BE425 /* CCBSequenceProperty.h */,
+				B5D638C417B4023D005BE425 /* CCBSequenceProperty.m */,
+				B5D638C517B4023D005BE425 /* CCNode+CCBRelativePositioning.h */,
+				B5D638C617B4023D005BE425 /* CCNode+CCBRelativePositioning.m */,
+			);
+			path = CCBReader;
+			sourceTree = "<group>";
+		};
+		B5D638D117B41C2B005BE425 /* ccbResources */ = {
+			isa = PBXGroup;
+			children = (
+				B5D638D217B41C2B005BE425 /* ccbDefaultImages-hd.plist */,
+				B5D638D317B41C2B005BE425 /* ccbDefaultImages-hd.png */,
+				B5D638D417B41C2B005BE425 /* ccbDefaultImages-ipad.plist */,
+				B5D638D517B41C2B005BE425 /* ccbDefaultImages-ipadhd.plist */,
+				B5D638D617B41C2B005BE425 /* ccbDefaultImages.plist */,
+				B5D638D717B41C2B005BE425 /* ccbDefaultImages.png */,
+				B5D638D817B41C2B005BE425 /* ccbParticleFire.png */,
+				B5D638D917B41C2B005BE425 /* ccbParticleSmoke.png */,
+				B5D638DA17B41C2B005BE425 /* ccbParticleSnow.png */,
+				B5D638DB17B41C2B005BE425 /* ccbParticleStars.png */,
+			);
+			name = ccbResources;
+			path = Resources/ccbResources;
+			sourceTree = "<group>";
+		};
+		B5E5E6D617C28184006FE2B0 /* Round */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5E6D717C281BC006FE2B0 /* RoundContainer.h */,
+				B5E5E6D817C281BC006FE2B0 /* RoundContainer.m */,
+				B5E5E6DA17C281DE006FE2B0 /* RoundQuestion.h */,
+				B5E5E6DB17C281DE006FE2B0 /* RoundQuestion.m */,
+				B5E5E6DD17C281ED006FE2B0 /* Card.h */,
+				B5E5E6DE17C281ED006FE2B0 /* Card.m */,
+			);
+			name = Round;
+			sourceTree = "<group>";
+		};
+		B5E5E6E017C292A2006FE2B0 /* CCControlExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5E6E117C292A2006FE2B0 /* CCControl */,
+				B5E5E6FD17C292A2006FE2B0 /* CCControlExtension.h */,
+				B5E5E6FE17C292A2006FE2B0 /* README.md */,
+			);
+			name = CCControlExtension;
+			path = libs/CCControlExtension;
+			sourceTree = "<group>";
+		};
+		B5E5E6E117C292A2006FE2B0 /* CCControl */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5E6E217C292A2006FE2B0 /* CCControl.h */,
+				B5E5E6E317C292A2006FE2B0 /* CCControl.m */,
+				B5E5E6E417C292A2006FE2B0 /* CCControlButton.h */,
+				B5E5E6E517C292A2006FE2B0 /* CCControlButton.m */,
+				B5E5E6E617C292A2006FE2B0 /* CCControlColourPicker.h */,
+				B5E5E6E717C292A2006FE2B0 /* CCControlColourPicker.m */,
+				B5E5E6E817C292A2006FE2B0 /* CCControlHuePicker.h */,
+				B5E5E6E917C292A2006FE2B0 /* CCControlHuePicker.m */,
+				B5E5E6EA17C292A2006FE2B0 /* CCControlPotentiometer.h */,
+				B5E5E6EB17C292A2006FE2B0 /* CCControlPotentiometer.m */,
+				B5E5E6EC17C292A2006FE2B0 /* CCControlSaturationBrightnessPicker.h */,
+				B5E5E6ED17C292A2006FE2B0 /* CCControlSaturationBrightnessPicker.m */,
+				B5E5E6EE17C292A2006FE2B0 /* CCControlSlider.h */,
+				B5E5E6EF17C292A2006FE2B0 /* CCControlSlider.m */,
+				B5E5E6F017C292A2006FE2B0 /* CCControlStepper.h */,
+				B5E5E6F117C292A2006FE2B0 /* CCControlStepper.m */,
+				B5E5E6F217C292A2006FE2B0 /* CCControlSwitch.h */,
+				B5E5E6F317C292A2006FE2B0 /* CCControlSwitch.m */,
+				B5E5E6F417C292A2006FE2B0 /* Shaders */,
+				B5E5E6F617C292A2006FE2B0 /* Utils */,
+			);
+			path = CCControl;
+			sourceTree = "<group>";
+		};
+		B5E5E6F417C292A2006FE2B0 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5E6F517C292A2006FE2B0 /* CCControlSwitchMask.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		B5E5E6F617C292A2006FE2B0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5E6F717C292A2006FE2B0 /* CCColourUtils.h */,
+				B5E5E6F817C292A2006FE2B0 /* CCColourUtils.m */,
+				B5E5E6F917C292A2006FE2B0 /* CCScale9Sprite.h */,
+				B5E5E6FA17C292A2006FE2B0 /* CCScale9Sprite.m */,
+				B5E5E6FB17C292A2006FE2B0 /* Utils.h */,
+				B5E5E6FC17C292A2006FE2B0 /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -942,6 +1184,30 @@
 				B5D6373017B4020D005BE425 /* Icon@2x.png in Resources */,
 				B5D6373317B4020D005BE425 /* iTunesArtwork in Resources */,
 				B5D6388C17B4020E005BE425 /* ChangeLog in Resources */,
+				B5D638DC17B41C2B005BE425 /* ccbDefaultImages-hd.plist in Resources */,
+				B5D638DD17B41C2B005BE425 /* ccbDefaultImages-hd.png in Resources */,
+				B5D638DE17B41C2B005BE425 /* ccbDefaultImages-ipad.plist in Resources */,
+				B5D638DF17B41C2B005BE425 /* ccbDefaultImages-ipadhd.plist in Resources */,
+				B5D638E017B41C2B005BE425 /* ccbDefaultImages.plist in Resources */,
+				B5D638E117B41C2B005BE425 /* ccbDefaultImages.png in Resources */,
+				B5D638E217B41C2B005BE425 /* ccbParticleFire.png in Resources */,
+				B5D638E317B41C2B005BE425 /* ccbParticleSmoke.png in Resources */,
+				B5D638E417B41C2B005BE425 /* ccbParticleSnow.png in Resources */,
+				B5D638E517B41C2B005BE425 /* ccbParticleStars.png in Resources */,
+				B5E5E6D217C2816D006FE2B0 /* RoundAnswers.ccbi in Resources */,
+				B5E5E6D317C2816D006FE2B0 /* RoundContainer.ccbi in Resources */,
+				B5E5E6D417C2816D006FE2B0 /* RoundQuestion.ccbi in Resources */,
+				B5E5E6D517C2816D006FE2B0 /* RoundScore.ccbi in Resources */,
+				B5E5E71D17C292A2006FE2B0 /* README.md in Resources */,
+				B5F6C4E317C3C6B200CB497E /* Card.ccbi in Resources */,
+				B5F6C4E517C3D09C00CB497E /* Number-2-icon.png in Resources */,
+				B5F6C4E717C3D1FF00CB497E /* cherries.png in Resources */,
+				B5F6C50617C506CE00CB497E /* cards-base-hd.plist in Resources */,
+				B5F6C50717C506CE00CB497E /* cards-base-hd.png in Resources */,
+				B5F6C50A17C506CE00CB497E /* cards-base.plist in Resources */,
+				B5F6C50B17C506CE00CB497E /* cards-base.png in Resources */,
+				B5F6C51617C5286700CB497E /* cards-base-ipadhd.plist in Resources */,
+				B5F6C51717C5286700CB497E /* cards-base-ipadhd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,8 +1328,30 @@
 				B5D638A617B4020E005BE425 /* vec4.c in Sources */,
 				B5D638AB17B4020E005BE425 /* main.m in Sources */,
 				B5D638AE17B4020E005BE425 /* AppDelegate.m in Sources */,
-				B5D638B117B4020E005BE425 /* HelloWorldLayer.m in Sources */,
-				B5D638B417B4020E005BE425 /* IntroLayer.m in Sources */,
+				B5D638C717B4023D005BE425 /* CCBAnimationManager.m in Sources */,
+				B5D638C817B4023D005BE425 /* CCBKeyframe.m in Sources */,
+				B5D638C917B4023D005BE425 /* CCBReader.m in Sources */,
+				B5D638CA17B4023D005BE425 /* CCBsequence.m in Sources */,
+				B5D638CB17B4023D005BE425 /* CCBSequenceProperty.m in Sources */,
+				B5D638CC17B4023D005BE425 /* CCNode+CCBRelativePositioning.m in Sources */,
+				B5E5E6D917C281BC006FE2B0 /* RoundContainer.m in Sources */,
+				B5E5E6DC17C281DE006FE2B0 /* RoundQuestion.m in Sources */,
+				B5E5E6DF17C281ED006FE2B0 /* Card.m in Sources */,
+				B5E5E71017C292A2006FE2B0 /* CCControl.m in Sources */,
+				B5E5E71117C292A2006FE2B0 /* CCControlButton.m in Sources */,
+				B5E5E71217C292A2006FE2B0 /* CCControlColourPicker.m in Sources */,
+				B5E5E71317C292A2006FE2B0 /* CCControlHuePicker.m in Sources */,
+				B5E5E71417C292A2006FE2B0 /* CCControlPotentiometer.m in Sources */,
+				B5E5E71517C292A2006FE2B0 /* CCControlSaturationBrightnessPicker.m in Sources */,
+				B5E5E71617C292A2006FE2B0 /* CCControlSlider.m in Sources */,
+				B5E5E71717C292A2006FE2B0 /* CCControlStepper.m in Sources */,
+				B5E5E71817C292A2006FE2B0 /* CCControlSwitch.m in Sources */,
+				B5E5E71917C292A2006FE2B0 /* CCControlSwitchMask.fsh in Sources */,
+				B5E5E71A17C292A2006FE2B0 /* CCColourUtils.m in Sources */,
+				B5E5E71B17C292A2006FE2B0 /* CCScale9Sprite.m in Sources */,
+				B5E5E71C17C292A2006FE2B0 /* Utils.m in Sources */,
+				B5F6C50E17C5082300CB497E /* GameModel.m in Sources */,
+				B5F6C51A17C5348B00CB497E /* GameController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1074,6 +1362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1084,8 +1376,9 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1095,6 +1388,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1103,8 +1400,9 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1169,6 +1467,7 @@
 				B5D638B917B4020E005BE425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
