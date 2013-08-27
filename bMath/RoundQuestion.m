@@ -18,8 +18,6 @@
 
 @synthesize animationManager;
 
-NSString* CARDS[] = {CARD_0, CARD_1, CARD_2, CARD_3, CARD_4, CARD_5, CARD_6, CARD_7, CARD_8, CARD_9, CARD_10};
-
 - (void) didLoadFromCCB
 {
     self.animationManager = self.userObject;
@@ -27,8 +25,8 @@ NSString* CARDS[] = {CARD_0, CARD_1, CARD_2, CARD_3, CARD_4, CARD_5, CARD_6, CAR
 
 -(void)newQuestion
 {
-    NSUInteger op1 = RANDOM(1,9);
-    NSUInteger op2 = RANDOM(1,10-op1);
+    NSUInteger op1 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE-1);
+    NSUInteger op2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE-op1);
     self.answer = op1 + op2;
     
     NSLog(@"%d + %d = %d", op1, op2, self.answer);
@@ -39,8 +37,8 @@ NSString* CARDS[] = {CARD_0, CARD_1, CARD_2, CARD_3, CARD_4, CARD_5, CARD_6, CAR
 -(void)showCards:(NSUInteger)op1
             op2:(NSUInteger)op2
 {
-    [self.q1 setCardByName:CARDS[op1]];
-    [self.q2 setCardByName:CARDS[op2]];
+    [self.q1 setCardByValue:op1];
+    [self.q2 setCardByValue:op2];
     
     [self.q3 setCardByName:CARD_QUESTION];
     [self.op setCardByName:CARD_PLUS];

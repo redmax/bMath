@@ -9,13 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "Common.h"
 #import "RoundQuestion.h"
+#import "RoundAnswer.h"
 
 @interface RoundContainer : CCLayer {
     
 }
 
-@property (nonatomic,retain) CCBAnimationManager* animationManager;
+@property (nonatomic, retain) CCBAnimationManager* animationManager;
 @property (nonatomic, retain) RoundQuestion* question;
+@property (nonatomic, retain) RoundAnswer* answer;
 
 -(void)newRound;
 -(void)pressNewQuestion:(id)sender;

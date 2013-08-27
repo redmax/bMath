@@ -28,6 +28,7 @@
 -(void)pressNewQuestion:(id)sender
 {
     [self.question newQuestion];
+    [self.answer newChoiceWithAnswer: self.question.answer];
 }
 
 @end

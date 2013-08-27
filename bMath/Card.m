@@ -18,4 +18,10 @@
         [[GameModel sharedGameModel] cardSpriteByName:name]];
 }
 
+-(void)setCardByValue:(int)value
+{
+    [self.image setSpriteFrame:
+     [[GameModel sharedGameModel] cardSpriteByName:CARDS[value]]];
+}
+
 @end

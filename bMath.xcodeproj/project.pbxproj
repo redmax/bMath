@@ -187,6 +187,9 @@
 		B5F6C51617C5286700CB497E /* cards-base-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C51417C5286700CB497E /* cards-base-ipadhd.plist */; };
 		B5F6C51717C5286700CB497E /* cards-base-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C51517C5286700CB497E /* cards-base-ipadhd.png */; };
 		B5F6C51A17C5348B00CB497E /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F6C51917C5348B00CB497E /* GameController.m */; };
+		B5F6C51D17CD56D900CB497E /* smile-ko.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C51B17CD56D900CB497E /* smile-ko.png */; };
+		B5F6C51E17CD56D900CB497E /* smile-ok.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F6C51C17CD56D900CB497E /* smile-ok.png */; };
+		B5F6C52117CD579300CB497E /* RoundAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F6C52017CD579300CB497E /* RoundAnswer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -540,6 +543,10 @@
 		B5F6C51517C5286700CB497E /* cards-base-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cards-base-ipadhd.png"; path = "Resources/cards-base-ipadhd.png"; sourceTree = "<group>"; };
 		B5F6C51817C5348B00CB497E /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		B5F6C51917C5348B00CB497E /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		B5F6C51B17CD56D900CB497E /* smile-ko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smile-ko.png"; path = "Resources/smile-ko.png"; sourceTree = "<group>"; };
+		B5F6C51C17CD56D900CB497E /* smile-ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smile-ok.png"; path = "Resources/smile-ok.png"; sourceTree = "<group>"; };
+		B5F6C51F17CD579300CB497E /* RoundAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundAnswer.h; sourceTree = "<group>"; };
+		B5F6C52017CD579300CB497E /* RoundAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundAnswer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -619,6 +626,8 @@
 		B5D6371C17B4020D005BE425 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5F6C51B17CD56D900CB497E /* smile-ko.png */,
+				B5F6C51C17CD56D900CB497E /* smile-ok.png */,
 				B5F6C51417C5286700CB497E /* cards-base-ipadhd.plist */,
 				B5F6C51517C5286700CB497E /* cards-base-ipadhd.png */,
 				B5F6C50017C506CE00CB497E /* cards-base-hd.plist */,
@@ -1058,6 +1067,8 @@
 				B5E5E6DB17C281DE006FE2B0 /* RoundQuestion.m */,
 				B5E5E6DD17C281ED006FE2B0 /* Card.h */,
 				B5E5E6DE17C281ED006FE2B0 /* Card.m */,
+				B5F6C51F17CD579300CB497E /* RoundAnswer.h */,
+				B5F6C52017CD579300CB497E /* RoundAnswer.m */,
 			);
 			name = Round;
 			sourceTree = "<group>";
@@ -1208,6 +1219,8 @@
 				B5F6C50B17C506CE00CB497E /* cards-base.png in Resources */,
 				B5F6C51617C5286700CB497E /* cards-base-ipadhd.plist in Resources */,
 				B5F6C51717C5286700CB497E /* cards-base-ipadhd.png in Resources */,
+				B5F6C51D17CD56D900CB497E /* smile-ko.png in Resources */,
+				B5F6C51E17CD56D900CB497E /* smile-ok.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1352,6 +1365,7 @@
 				B5E5E71C17C292A2006FE2B0 /* Utils.m in Sources */,
 				B5F6C50E17C5082300CB497E /* GameModel.m in Sources */,
 				B5F6C51A17C5348B00CB497E /* GameController.m in Sources */,
+				B5F6C52117CD579300CB497E /* RoundAnswer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

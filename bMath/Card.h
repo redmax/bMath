@@ -16,5 +16,6 @@
 @property (nonatomic, retain) CCScale9Sprite* image;
 
 -(void)setCardByName:(NSString*)name;
+-(void)setCardByValue:(int)value;
 
 @end

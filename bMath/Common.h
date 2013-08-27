@@ -33,6 +33,11 @@
 #define CARD_MINUS      @"13"
 #define CARD_QUESTION   @"14"
 
+#define MIN_CARD_VALUE  1
+#define MAX_CARD_VALUE  10
+
 #define RANDOM(MIN, MAX) (MIN + (MAX+1-MIN)*CCRANDOM_0_1())
+
+static NSString* CARDS[] = {CARD_0, CARD_1, CARD_2, CARD_3, CARD_4, CARD_5, CARD_6, CARD_7, CARD_8, CARD_9, CARD_10};
 
 #endif
