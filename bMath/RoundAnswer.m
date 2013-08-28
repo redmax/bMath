@@ -15,6 +15,11 @@
 @synthesize a1;
 @synthesize a2;
 
+- (void) didLoadFromCCB
+{
+    self.animationManager = self.userObject;
+}
+
 -(void)newChoiceWithAnswer:(int)answer
 {
     int c2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE);

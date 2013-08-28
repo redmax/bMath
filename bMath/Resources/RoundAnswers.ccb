@@ -179,24 +179,6 @@
 										<real>50</real>
 									</array>
 								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>1</integer>
-									</dict>
-									<key>name</key>
-									<string>position</string>
-									<key>time</key>
-									<real>2</real>
-									<key>type</key>
-									<integer>3</integer>
-									<key>value</key>
-									<array>
-										<real>25</real>
-										<real>50</real>
-									</array>
-								</dict>
 							</array>
 							<key>name</key>
 							<string>position</string>
@@ -280,7 +262,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>25</real>
+							<real>-10</real>
 							<real>50</real>
 							<integer>4</integer>
 						</array>
@@ -307,6 +289,8 @@
 						<string>Card.ccb</string>
 					</dict>
 				</array>
+				<key>seqExpanded</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>animatedProperties</key>
@@ -335,24 +319,6 @@
 										<real>50</real>
 									</array>
 								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>1</integer>
-									</dict>
-									<key>name</key>
-									<string>position</string>
-									<key>time</key>
-									<real>2</real>
-									<key>type</key>
-									<integer>3</integer>
-									<key>value</key>
-									<array>
-										<real>75</real>
-										<real>50</real>
-									</array>
-								</dict>
 							</array>
 							<key>name</key>
 							<string>position</string>
@@ -436,7 +402,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>75</real>
+							<real>-10</real>
 							<real>50</real>
 							<integer>4</integer>
 						</array>
@@ -463,6 +429,10 @@
 						<string>Card.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
+				<key>seqExpanded</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>animatedProperties</key>
@@ -1443,7 +1413,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>2</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
