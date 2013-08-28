@@ -30,9 +30,21 @@
     [self.animationManager runAnimationsForSequenceNamed:@"Choice2"];
 }
 
--(BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+- (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 {
+    CGPoint ptTouch = [touch locationInView:touch.view];
     
+    Card *touched = nil;
+    
+    if(CGRectContainsPoint(self.a1.boundingBox, ptTouch))
+        touched = self.a1;
+    else if(CGRectContainsPoint(self.a2.boundingBox, ptTouch))
+        touched = self.a2;
+    
+    if(touched != nil)
+        [touched runAction:[CCRotateBy actionWithDuration:2 angle:360]];
+    
+    return YES;
 }
 
 @end
