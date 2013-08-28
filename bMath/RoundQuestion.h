@@ -20,8 +20,6 @@
 @property (nonatomic,retain) Card *op;
 @property (nonatomic,retain) Card *eq;
 
-@property NSUInteger answer;
-
--(void) newQuestion;
+-(void)showCards;
 
 @end

@@ -12,6 +12,10 @@
 @implementation GameModel
 
 @synthesize cardSet = _cardSet;
+@synthesize currentAnswer;
+@synthesize op1;
+@synthesize op2;
+@synthesize roundScore;
 
 -(void)setCardSet:(NSString *)cardSet
 {
@@ -25,6 +29,7 @@
     if([super init] != nil)
     {
         self.cardSet=@"cards-base";
+        self.roundScore = 0;        
     }
     
     return self;
@@ -46,5 +51,9 @@ static GameModel* _sharedGameModel=nil;
             spriteFrameByName:[NSString stringWithFormat:@"%@_%@.png", self.cardSet, name ]];
 }
 
+-(BOOL)isCorrectAnswer:(NSInteger)answer
+{
+    return answer == self.currentAnswer;
+}
 
 @end

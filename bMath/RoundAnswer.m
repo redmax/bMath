@@ -10,9 +10,6 @@
 
 
 @implementation RoundAnswer
-{
-    int _answer;
-}
 
 @synthesize animationManager;
 @synthesize a1;
@@ -23,14 +20,15 @@
     self.animationManager = self.userObject;
 }
 
--(void)newChoiceWithAnswer:(int)answer
+-(void)newChoice
 {
+    NSUInteger answer = [GameModel sharedGameModel].currentAnswer;
+    
     int c2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE);
     
     while (answer==c2) {
         c2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE);
     }
-    _answer = answer;
     
     if(RANDOM(0, 99)>=50)
         [self showChoice:answer c2:c2];
@@ -50,25 +48,17 @@
     [self.animationManager runAnimationsForSequenceNamed:@"Choice2"];
 }
 
-- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+-(NSInteger)answerAtTouch:(UITouch *)touch
 {
-    CGPoint ptTouch = [self convertTouchToNodeSpace:[touches anyObject]];
+    CGPoint pt = [self convertTouchToNodeSpace:touch];
     
-    Card *touched = nil;
+    NSInteger n = -1;
+    if(CGRectContainsPoint(self.a1.boundingBox, pt))
+        n = self.a1.tag;
+    else if(CGRectContainsPoint(self.a2.boundingBox, pt))
+        n = self.a2.tag;
     
-    if(CGRectContainsPoint(self.a1.boundingBox, ptTouch))
-        touched = self.a1;
-    else if(CGRectContainsPoint(self.a2.boundingBox, ptTouch))
-        touched = self.a2;
-    
-    if(touched != nil)
-    {
-        if(touched.tag == _answer)
-        {
-            [self.animationManager runAnimationsForSequenceNamed:@"AnswerIsOk"];
-        } else {
-            [self.animationManager runAnimationsForSequenceNamed:@"AnswerIsKo"];            
-        }
-    }
+    return n;
 }
+
 @end

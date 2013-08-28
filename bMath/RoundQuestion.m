@@ -23,28 +23,15 @@
     self.animationManager = self.userObject;
 }
 
--(void)newQuestion
+-(void)showCards;
 {
-    NSUInteger op1 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE-1);
-    NSUInteger op2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE-op1);
-    self.answer = op1 + op2;
-    
-    NSLog(@"%d + %d = %d", op1, op2, self.answer);
-    
-    [self showCards:op1 op2:op2];
-}
-
--(void)showCards:(NSUInteger)op1
-            op2:(NSUInteger)op2
-{
-    [self.q1 setCardByValue:op1];
-    [self.q2 setCardByValue:op2];
+    [self.q1 setCardByValue:[GameModel sharedGameModel].op1];
+    [self.q2 setCardByValue:[GameModel sharedGameModel].op2];
     
     [self.q3 setCardByName:CARD_QUESTION];
     [self.op setCardByName:CARD_PLUS];
     [self.eq setCardByName:CARD_EQUAL];
     
-    [animationManager runAnimationsForSequenceNamed:@"NewQuestion"];
+    [self.animationManager runAnimationsForSequenceNamed:@"NewQuestion"];
 }
-
 @end

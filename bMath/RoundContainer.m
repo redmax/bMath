@@ -18,18 +18,32 @@
 
 - (void) didLoadFromCCB
 {
+    [GameController sharedGameController].roundContainer = self;
+    [GameController sharedGameController].roundAnswer = self.answer;
+    [GameController sharedGameController].roundQuestion = self.question;
+    
     self.animationManager = self.userObject;
 }
 
 -(void)newRound
 {
-    [self.question newQuestion];
+    [GameModel sharedGameModel].roundScore = 0;
 }
 
 -(void)pressNewQuestion:(id)sender
 {
-    [self.question newQuestion];
-    [self.answer newChoiceWithAnswer: self.question.answer];
+    [[GameController sharedGameController] newQuestion];
+}
+
+- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch* touch = [touches anyObject];
+    CGPoint ptTouch = [self convertTouchToNodeSpace:touch];
+
+    if(CGRectContainsPoint(self.answer.boundingBox, ptTouch))
+    {
+        [[GameController sharedGameController] endRoundWithAnswer:[self.answer answerAtTouch:touch]];
+    }
 }
 
 @end

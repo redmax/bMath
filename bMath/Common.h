@@ -16,6 +16,7 @@
 #import "Card.h"
 
 #import "GameModel.h"
+#import "GameController.h"
 
 #define CARD_1          @"00"
 #define CARD_2          @"01"

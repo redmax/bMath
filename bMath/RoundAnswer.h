@@ -17,6 +17,7 @@
 @property (nonatomic, retain) Card* a1;
 @property (nonatomic, retain) Card* a2;
 
--(void)newChoiceWithAnswer:(int)answer;
+-(void)newChoice;
+-(NSInteger)answerAtTouch:(UITouch*)touch;
 
 @end
