@@ -30,4 +30,9 @@
     [self.animationManager runAnimationsForSequenceNamed:@"Choice2"];
 }
 
+-(BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    
+}
+
 @end
