@@ -38,11 +38,11 @@
 - (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch* touch = [touches anyObject];
-    CGPoint ptTouch = [self convertTouchToNodeSpace:touch];
 
-    if(CGRectContainsPoint(self.answer.boundingBox, ptTouch))
+    NSInteger ans = [self.answer answerAtTouch:touch];
+    if(ans > 0)
     {
-        [[GameController sharedGameController] endRoundWithAnswer:[self.answer answerAtTouch:touch]];
+        [[GameController sharedGameController] endRoundWithAnswer:ans];
     }
 }
 
