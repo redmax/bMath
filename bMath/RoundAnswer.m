@@ -10,6 +10,9 @@
 
 
 @implementation RoundAnswer
+{
+    int _answer;
+}
 
 @synthesize animationManager;
 @synthesize a1;
@@ -27,6 +30,7 @@
     while (answer==c2) {
         c2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE);
     }
+    _answer = answer;
     
     if(RANDOM(0, 99)>=50)
         [self showChoice:answer c2:c2];
@@ -37,6 +41,9 @@
 -(void)showChoice:(int)c1
                c2:(int)c2
 {
+    self.a1.tag = c1;
+    self.a2.tag = c2;
+    
     [self.a1 setCardByValue:c1];
     [self.a2 setCardByValue:c2];
     
@@ -55,6 +62,13 @@
         touched = self.a2;
     
     if(touched != nil)
-        [touched runAction:[CCRotateBy actionWithDuration:2 angle:360]];
+    {
+        if(touched.tag == _answer)
+        {
+            [self.animationManager runAnimationsForSequenceNamed:@"AnswerIsOk"];
+        } else {
+            [self.animationManager runAnimationsForSequenceNamed:@"AnswerIsKo"];            
+        }
+    }
 }
 @end
