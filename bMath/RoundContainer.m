@@ -12,6 +12,7 @@
 @implementation RoundContainer
 
 @synthesize question;
+@synthesize answer;
 
 @synthesize animationManager;
 

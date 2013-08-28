@@ -11,6 +11,10 @@
 
 @implementation RoundAnswer
 
+@synthesize animationManager;
+@synthesize a1;
+@synthesize a2;
+
 -(void)newChoiceWithAnswer:(int)answer
 {
     int c2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE);
@@ -20,23 +24,23 @@
     }
     
     if(RANDOM(0, 99)>=50)
-        [self showChoice:answer a2:c2];
+        [self showChoice:answer c2:c2];
     else
-        [self showChoice:c2 a2:answer];
+        [self showChoice:c2 c2:answer];
 }
 
--(void)showChoice:(int)a1
-               a2:(int)a2
+-(void)showChoice:(int)c1
+               c2:(int)c2
 {
-    [self.a1 setCardByValue:a1];
-    [self.a2 setCardByValue:a2];
+    [self.a1 setCardByValue:c1];
+    [self.a2 setCardByValue:c2];
     
     [self.animationManager runAnimationsForSequenceNamed:@"Choice2"];
 }
 
 - (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 {
-    CGPoint ptTouch = [touch locationInView:touch.view];
+    CGPoint ptTouch = [self convertTouchToNodeSpace:touch];
     
     Card *touched = nil;
     
