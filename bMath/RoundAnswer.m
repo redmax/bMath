@@ -15,10 +15,14 @@
 {
     int c2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE);
     
-    while (c2==answer) {
+    while (answer==c2) {
         c2 = RANDOM(MIN_CARD_VALUE, MAX_CARD_VALUE);
     }
     
+    if(RANDOM(0, 99)>=50)
+        [self showChoice:answer a2:c2];
+    else
+        [self showChoice:c2 a2:answer];
 }
 
 -(void)showChoice:(int)a1
