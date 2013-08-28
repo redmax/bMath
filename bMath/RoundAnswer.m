@@ -43,9 +43,9 @@
     [self.animationManager runAnimationsForSequenceNamed:@"Choice2"];
 }
 
-- (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    CGPoint ptTouch = [self convertTouchToNodeSpace:touch];
+    CGPoint ptTouch = [self convertTouchToNodeSpace:[touches anyObject]];
     
     Card *touched = nil;
     
@@ -56,8 +56,5 @@
     
     if(touched != nil)
         [touched runAction:[CCRotateBy actionWithDuration:2 angle:360]];
-    
-    return YES;
 }
-
 @end
